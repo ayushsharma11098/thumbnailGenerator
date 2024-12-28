@@ -11,7 +11,7 @@ export const config = {
 };
 
 const replicate = new Replicate({
-  auth: process.env.REPLICATE_API_TOKEN,
+  auth: process.env.NEXT_PUBLIC_REPLICATE_API_TOKEN,
 });
 
 export default async function handler(req, res) {
